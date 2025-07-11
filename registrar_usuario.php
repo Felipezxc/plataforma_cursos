@@ -39,6 +39,13 @@
                                 <!-- to get an API token!-->
                                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                                     
+                                    <!-- Name input-->
+                                   <div class="form-floating mb-3">
+                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                        <label for="name">nome</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                    </div>  
+                                
                                     <!-- Email address input-->
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
